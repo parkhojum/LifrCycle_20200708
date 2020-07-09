@@ -28,4 +28,9 @@ class MainActivity : AppCompatActivity() {
         super.onResume()
         Log.d("메인화면","onResume실행")
     }
+
+    override fun onPause() {
+        super.onPause()
+        Log.d("메인화면","onPause실행")
+    }
 }
